@@ -20,7 +20,7 @@ const SearchForm = () => {
             type="search"
             id="search-dropdown"
             className="z-20 block w-full bg-gray-800 px-4 py-2 pr-10 focus:outline-none"
-            placeholder="Search Task by Title"
+            placeholder="Search by Title"
             required
             onChange={searchHandler}
           />
