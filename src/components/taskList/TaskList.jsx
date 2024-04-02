@@ -68,9 +68,9 @@ const TaskList = () => {
 
       <div className="container">
         <div className="rounded-xl border border-[rgba(206,206,206,0.12)] bg-[#1D212B] px-6 py-8 md:px-9 md:py-16">
-          <div className="mb-14 items-center justify-between sm:flex">
+          <div className="mb-14 items-center justify-between flex flex-col md:flex-row">
             <h2 className="text-2xl font-semibold max-sm:mb-4">Your Tasks</h2>
-            <div className="flex items-center space-x-5">
+            <div className="flex flex-col md:flex-row gap-5 md:gap-0 items-center space-x-5">
               <SearchForm />
               <button
                 onClick={() => setAddShowModal(true)}
